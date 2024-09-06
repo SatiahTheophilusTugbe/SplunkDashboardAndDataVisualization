@@ -2,6 +2,7 @@
 
 Solution Guide:  Single-value Visualizations
 In this activity, you were tasked with designing a radial gauge to illustrate the severity of a single value.
+![1](https://github.com/user-attachments/assets/254969af-aa31-4da9-8433-33c1f087bec1)
 
 Upload the radialgauge.csv file to your local Splunk system located in the splunk/logs/Week-2-Day-1-Logs directory. Select all defaults during the upload process.
 
