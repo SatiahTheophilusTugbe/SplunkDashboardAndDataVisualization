@@ -1,4 +1,4 @@
-<h1> Spunk-Single-Visualization-Config </h1>
+<h1> Splunk-Single-Visualization-Config </h1>
 
 
 
