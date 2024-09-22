@@ -55,17 +55,27 @@ Use the following Splunk Query Language (SPL) to find events where the subject i
 ![9a](https://github.com/user-attachments/assets/e49f2776-eec7-437f-b06d-fd2731f68d91)
 
 # Create the Visualization:
-- Graphing the query and also piping the top 20 successful log by user
+Once the results are displayed, you can create a visualization by selecting the Visualization tab at the top of the search results.
+
+Choose one of the following chart types depending on how you want to represent the data:
+- Bar Chart to show successful logons per user.
+- Pie Chart for a proportionate view of logon events by account.
+- Column Chart for side-by-side comparison of logon events.
+
+
+- Graphing the query and also piping the top 20 successful logged on by user on a Bar chart
 
 ![10a](https://github.com/user-attachments/assets/baac88c4-e82a-4f23-bbb2-b28692274e3a)
 
-- Pie Chart Representation
+- Pie Chart for a proportionate view of logon events by account.
 
 ![11a](https://github.com/user-attachments/assets/ccbfcda2-c7cc-439f-80ea-1c2ee565ca0f)
 
 # Creating a report for the Pie Chart Logins
+- After customizing your visualization, click on Save As and choose Report.
+- Give it a meaningful title like "LoginPie Chart" and save the report.
 
-- ![12a](https://github.com/user-attachments/assets/d1119f23-6b03-4aa0-bb87-d926746a3927)
+![12a](https://github.com/user-attachments/assets/d1119f23-6b03-4aa0-bb87-d926746a3927)
 
 
 
