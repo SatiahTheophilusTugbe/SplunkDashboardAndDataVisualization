@@ -106,7 +106,7 @@ Search: Use the following SPL query:
 
 ![20b](https://github.com/user-attachments/assets/242216c0-6d8f-4ad9-a365-9847a4c41b48)
 
-- Zoom! Zoom! by hitting the + sign to the left of the window for clarify
+- Zoom! Zoom! by hitting the + sign to the left of the window for clarity
 
 ![21b](https://github.com/user-attachments/assets/db058bc9-3f2b-46fa-b1b3-ab2d5d8f074e)
 
@@ -116,4 +116,23 @@ Search: Use the following SPL query:
 
 ![22b](https://github.com/user-attachments/assets/9bb8ad55-8a21-4b4e-b5d2-8e4daca3c396)
 
+# Dashboard Creation
+Now, we'll combine all visualizations into a single dashboard.
 
+# Add the Radial Gauge:
+- Select the saved radial gauge report.
+- Add it to a new dashboard titled "Website Monitoring".
+- Add Other Visualizations:
+
+Add the pie chart and geographic map to the same dashboard, selecting the Existing Dashboard option.
+Additional Visualization:
+
+Add a statistical view of the pie chart next to the pie chart in the dashboard.
+
+# Conclusion
+
+This Splunk Data Visualization and Dashboard repository provides a comprehensive walkthrough of key Splunk data visualization and dashboard creation exercises for monitoring and analyzing server POST request events. By following the provided steps, users can efficiently generate radial gauges, pie charts, and geographic maps to visualize and track data in real-time, culminating in a consolidated dashboard for web activity monitoring.
+
+This repository not only guides users through essential visualizations but also demonstrates advanced dashboard features, such as time-based inputs and drilldown capabilities. It empowers users to create custom visual reports, monitor server activity, and set up alerts for critical events, thus enhancing their ability to manage and respond to network traffic patterns effectively.
+
+Contributors are welcome to improve or expand upon this guide by following the contribution guidelines. This project stands as a useful resource for anyone looking to learn about or improve their Splunk visualization skills for SIEM monitoring and data analysis.
