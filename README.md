@@ -63,7 +63,7 @@ Choose one of the following chart types depending on how you want to represent t
 - Column Chart for side-by-side comparison of logon events.
 
 
-- Graphing the query and also piping the top 20 successful logged on by user on a Bar chart
+# Graphing the query and also piping the top 20 successful logged on by user on a Bar chart
 
 ![10a](https://github.com/user-attachments/assets/baac88c4-e82a-4f23-bbb2-b28692274e3a)
 
