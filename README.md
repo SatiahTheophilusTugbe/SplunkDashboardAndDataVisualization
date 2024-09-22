@@ -20,12 +20,12 @@ Query: source="radialgauge.csv" http_method=POST | stats count as total
 ![4](https://github.com/user-attachments/assets/ba922081-fe5b-4eab-bf3d-7624fc3b26a6)
 
 # Create the Visualization:
-Go to Visualization > Radial Gauge.
-Set the ranges under Format > Color Ranges > Manual. For example:
-Green: 0–400
-Yellow: 400–1000
-Red: 1000–2000
-Save the visualization as "Radial Gauge – POST request monitor".
+- Go to Visualization > Radial Gauge.
+- Set the ranges under Format > Color Ranges > Manual. For example:
+- Green: 0–400
+- Yellow: 400–1000
+- Red: 1000–2000
+- Save the visualization as "Radial Gauge – POST request monitor".
 
 ![5](https://github.com/user-attachments/assets/8e4b12e5-1610-4488-bd15-f622521ee58c)
 
@@ -36,7 +36,7 @@ Create an alert that triggers when the count reaches the red range (e.g., 1200+ 
 
 # Quering Successful Account Logged on Events
 Uploading the Source document:
-Locate Source File:Source="demo_winlogs.csv" host="WinsLogs" sourcetype="csv" and injest into Splunk
+- Locate Source File:Source="demo_winlogs.csv" host="WinsLogs" sourcetype="csv" and injest into Splunk
 
 ![7a](https://github.com/user-attachments/assets/7eb73834-c556-4ad8-9855-75ddddfac25e)
 
@@ -50,7 +50,7 @@ Open your Splunk search interface:
 
 Use the following Splunk Query Language (SPL) to find events where the subject is "An account was successfully logged on":
 
-Query: host="WinsLogs" sourcetype="csv" subject="An account was successfully logged on"
+- Query: host="WinsLogs" sourcetype="csv" subject="An account was successfully logged on"
 
 ![9a](https://github.com/user-attachments/assets/e49f2776-eec7-437f-b06d-fd2731f68d91)
 
