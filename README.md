@@ -97,6 +97,28 @@ Next, we’ll design a pie chart to display the top 10 URI paths with the most P
 
 ![16a](https://github.com/user-attachments/assets/010f4461-7c98-45e0-a1cb-0c80a818fffe)
 
+# Geographic Map Visualization
+In this task, I visualize the locations of source IP addresses making POST requests.
 
+Search: Use the following SPL query:
+
+- Query: source="radialgauge.csv" http_method=POST | iplocation src_ip | geostats count
+
+![20b](https://github.com/user-attachments/assets/242216c0-6d8f-4ad9-a365-9847a4c41b48)
+
+- Zoom! Zoom!
+
+![21b](https://github.com/user-attachments/assets/db058bc9-3f2b-46fa-b1b3-ab2d5d8f074e)
+
+
+Create the Visualization:
+
+Go to Visualization > Cluster Map.
+Save the visualization as "Geographic Map – POST request monitor by Source IP".
+Bonus: Modify the search to display the attacked URIs on the same map:
+
+splunk
+Copy code
+source="radialgauge.csv" http_method=POST | iplocation src_ip | geostats count by uri_path
 
 
