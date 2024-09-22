@@ -34,7 +34,30 @@ Create an alert that triggers when the count reaches the red range (e.g., 1200+ 
 
 ![6](https://github.com/user-attachments/assets/88d443ac-fe41-4171-b44f-f96f13492424)
 
+# Quering Successful Account Logged Events
+Uploading the Source document:
 
+![7a](https://github.com/user-attachments/assets/7eb73834-c556-4ad8-9855-75ddddfac25e)
+
+Open your Splunk search interface:
+
+![8a](https://github.com/user-attachments/assets/600e3f93-f5bc-4fcf-a4b8-a3a2d7cf8bc4)
+
+
+Use the following Splunk Query Language (SPL) to find events where the subject is "An account was successfully logged on":
+
+splunk
+Copy code
+index=<your_index> "An account was successfully logged on"
+Replace <your_index> with the appropriate index where your log data is stored.
+
+2. Refine Search with Fields
+To make the search more specific, you can extract fields like Account_Name, Logon_Type, Computer_Name, etc., and count the occurrences. Here's an example to count the number of successful logons by Account_Name:
+
+splunk
+Copy code
+index=<your_index> "An account was successfully logged on" 
+| stats count by Account_Name, Logon_Type, Computer_Name
 
 
 
