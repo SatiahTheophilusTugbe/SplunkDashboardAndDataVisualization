@@ -120,14 +120,68 @@ Search: Use the following SPL query:
 Now, we'll combine all visualizations into a single dashboard.
 
 # Add the Radial Gauge:
-- Select the saved radial gauge report.
-- Add it to a new dashboard titled "Website Monitoring".
+- Select the saved radial gauge report:
+
+![24c](https://github.com/user-attachments/assets/c5ec0f82-d956-425f-9375-b4bc4c039eed)
+
+- Add it to a new dashboard titled "Demo Dashboard":
+
+![25c](https://github.com/user-attachments/assets/efc9f4de-d40c-4001-ae25-14088b75a0df)
+
+![26c](https://github.com/user-attachments/assets/6e4a38c9-465a-4975-b902-ae912eeb0078)
+
 - Add Other Visualizations:
 
-Add the pie chart and geographic map to the same dashboard, selecting the Existing Dashboard option.
-Additional Visualization:
+- Add the pie chart and geographic map to the same dashboard
 
-Add a statistical view of the pie chart next to the pie chart in the dashboard.
+![27c](https://github.com/user-attachments/assets/16345c9e-6568-4575-ba75-d2210c5ee13e)
+
+- selecting the Existing Dashboard option
+
+![28c](https://github.com/user-attachments/assets/caf05e03-e67e-48ef-b861-0b489a8064fb)
+
+![29c](https://github.com/user-attachments/assets/f23e3249-8c84-42dd-9ab9-e5384fcac14d)
+
+- Additional Visualization:
+
+![30c](https://github.com/user-attachments/assets/9b1d3ebb-4541-41bf-b9e7-ada5552e2cb0)
+
+- Add a statistical view of the pie chart next to the pie chart in the dashboard.
+
+![31c](https://github.com/user-attachments/assets/2584f04b-f801-4fab-988d-056977c1f836)
+
+# Advanced Dashboard Modifications
+Time Range Input:
+
+- Edit the dashboard and add a Time Range input for all panels:
+
+![32c](https://github.com/user-attachments/assets/a74a7457-1b77-4bf8-8bc0-75307a7d245b)
+
+- 1 Minute Window:
+
+![32c](https://github.com/user-attachments/assets/a0346314-808e-4e52-b361-f012e0fca584)
+
+- Year to Date:
+
+![34c](https://github.com/user-attachments/assets/cbf2328e-d774-4285-9b25-348c657b6908)
+
+- All Time:
+
+![35c](https://github.com/user-attachments/assets/81927f4e-efbe-4d53-b545-670153164ea5)
+
+# Drilldown Functionality:
+
+- Adding a drilldown feature to the geographic map panel that links to a new search when clicked.
+
+![36d](https://github.com/user-attachments/assets/e3407fc9-6a30-4028-9b42-8cbaca34e121)
+
+- Adding a click Function to the Dashboard
+
+![37d](https://github.com/user-attachments/assets/9a97b022-7d7d-4583-8c16-c9cb1ec5f187)
+
+- Clicking any user from the Top 10 Users Dashboard will open a drill down in the search window for that user:
+
+![38d](https://github.com/user-attachments/assets/ed4aaea1-ad41-43d6-a03a-de034cb93fd8)
 
 # Conclusion
 
