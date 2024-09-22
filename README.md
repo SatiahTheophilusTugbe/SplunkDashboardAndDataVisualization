@@ -1,4 +1,4 @@
-# <h1> SPLUNK DASHBOARD AND VISUALIZATION SETUP </h1>
+# <h1> SPLUNK DASHBOARD AND DATA VISUALIZATION </h1>
 # Project Overview
 This project provides a step-by-step guide for visualizing and monitoring web traffic data using Splunk. The data in question is focused on `POST` events, and through various visualization tools like **radial gauges**, **pie charts**, and **geographic maps**, you’ll gain insights into server request patterns and create dashboards to consolidate and monitor these metrics. Each visualization is saved as a report, which is then assembled into a Splunk dashboard for monitoring and alerting.
 
