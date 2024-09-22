@@ -14,8 +14,8 @@ Select all default options during the upload.
 
 ## Single-Value Visualization (Radial Gauge)
 In this exercise, I created a radial gauge to monitor the number of "POST" requests per hour.
-Search: Use the following SPL query to count the number of POST events:
-Query: source="radialgauge.csv" http_method=POST | stats count as total
+- Search: Use the following SPL query to count the number of POST events:
+- Query: source="radialgauge.csv" http_method=POST | stats count as total
 
 ![4](https://github.com/user-attachments/assets/ba922081-fe5b-4eab-bf3d-7624fc3b26a6)
 
