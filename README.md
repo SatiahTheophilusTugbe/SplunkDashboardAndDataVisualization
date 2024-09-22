@@ -62,13 +62,11 @@ Choose one of the following chart types depending on how you want to represent t
 - Pie Chart for a proportionate view of logon events by account.
 - Column Chart for side-by-side comparison of logon events.
 
-
-
-- Graphing the query and also piping the top 20 successful logged on by user on a Bar chart
+- Graphing the query and also piping the top 20 successful logged on by user on a Bar chart:
 
 ![10a](https://github.com/user-attachments/assets/baac88c4-e82a-4f23-bbb2-b28692274e3a)
 
-- Pie Chart for a proportionate view of logon events by account.
+- Pie Chart for a proportionate view of logon events by account:
 
 ![11a](https://github.com/user-attachments/assets/ccbfcda2-c7cc-439f-80ea-1c2ee565ca0f)
 
@@ -78,6 +76,26 @@ Choose one of the following chart types depending on how you want to represent t
 
 ![12a](https://github.com/user-attachments/assets/d1119f23-6b03-4aa0-bb87-d926746a3927)
 
+# Multiple-Value Visualization (Pie Chart and Bar Chart) 
+Next, we’ll design a pie chart to display the top 10 URI paths with the most POST requests.
+- Search: Use this SPL query to get the top 10 URI paths:
+- source="radialgauge.csv" http_method=POST | top limit=10 uri_path
+
+# Create the Visualization:
+- Go to Visualization > Pie Chart:
+
+![14a](https://github.com/user-attachments/assets/9a7437e0-18a6-4f96-9ff8-b630a704a426)
+
+- Go to Visualization > Bar Chart:
+
+![13a](https://github.com/user-attachments/assets/085bdc82-496d-4888-8eec-e9fb176b4951)
+
+  
+- Save the visualization as "Pie Chart – Top 10 URI_PATH".
+
+![15a](https://github.com/user-attachments/assets/9292f761-2e97-425d-955f-ab64d684514c)
+
+![16a](https://github.com/user-attachments/assets/010f4461-7c98-45e0-a1cb-0c80a818fffe)
 
 
 
