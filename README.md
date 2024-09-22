@@ -41,10 +41,10 @@ Locate Source File:Source="demo_winlogs.csv" host="WinsLogs" sourcetype="csv" an
 ![7a](https://github.com/user-attachments/assets/7eb73834-c556-4ad8-9855-75ddddfac25e)
 
 Open your Splunk search interface:
-From the left hand menu
-Drill down to subject
-From the pop-up to the left
-Select "An account was successfully logged on"
+- From the left hand menu
+- Drill down to subject
+- From the pop-up to the left
+- Select "An account was successfully logged on"
 
 ![8a](https://github.com/user-attachments/assets/600e3f93-f5bc-4fcf-a4b8-a3a2d7cf8bc4)
 
