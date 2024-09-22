@@ -106,19 +106,14 @@ Search: Use the following SPL query:
 
 ![20b](https://github.com/user-attachments/assets/242216c0-6d8f-4ad9-a365-9847a4c41b48)
 
-- Zoom! Zoom!
+- Zoom! Zoom! by hitting the + sign to the left of the window for clarify
 
 ![21b](https://github.com/user-attachments/assets/db058bc9-3f2b-46fa-b1b3-ab2d5d8f074e)
 
+# Modify the search to display the attacked URIs on the same map:
 
-Create the Visualization:
+- Query: source="radialgauge.csv" http_method=POST | iplocation src_ip | geostats count by uri_path
 
-Go to Visualization > Cluster Map.
-Save the visualization as "Geographic Map – POST request monitor by Source IP".
-Bonus: Modify the search to display the attacked URIs on the same map:
-
-splunk
-Copy code
-source="radialgauge.csv" http_method=POST | iplocation src_ip | geostats count by uri_path
+![22b](https://github.com/user-attachments/assets/9bb8ad55-8a21-4b4e-b5d2-8e4daca3c396)
 
 
