@@ -54,15 +54,20 @@ Use the following Splunk Query Language (SPL) to find events where the subject i
 
 ![9a](https://github.com/user-attachments/assets/e49f2776-eec7-437f-b06d-fd2731f68d91)
 
+# Create the Visualization:
+- Graphing the query and also piping the top 20 successful log by user
+
+![10a](https://github.com/user-attachments/assets/baac88c4-e82a-4f23-bbb2-b28692274e3a)
+
+- Pie Chart Representation
+
+![11a](https://github.com/user-attachments/assets/ccbfcda2-c7cc-439f-80ea-1c2ee565ca0f)
+
+# Creating a report for the Pie Chart Logins
+
+- ![12a](https://github.com/user-attachments/assets/d1119f23-6b03-4aa0-bb87-d926746a3927)
 
 
-2. Refine Search with Fields
-To make the search more specific, you can extract fields like Account_Name, Logon_Type, Computer_Name, etc., and count the occurrences. Here's an example to count the number of successful logons by Account_Name:
-
-splunk
-Copy code
-index=<your_index> "An account was successfully logged on" 
-| stats count by Account_Name, Logon_Type, Computer_Name
 
 
 
