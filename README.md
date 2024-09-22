@@ -19,16 +19,21 @@ Query: source="radialgauge.csv" http_method=POST | stats count as total
 
 ![4](https://github.com/user-attachments/assets/ba922081-fe5b-4eab-bf3d-7624fc3b26a6)
 
-Create the Visualization:
+# Create the Visualization:
 Go to Visualization > Radial Gauge.
 Set the ranges under Format > Color Ranges > Manual. For example:
 Green: 0–400
 Yellow: 400–1000
 Red: 1000–2000
 Save the visualization as "Radial Gauge – POST request monitor".
-Alert Setup:
 
+![5](https://github.com/user-attachments/assets/8e4b12e5-1610-4488-bd15-f622521ee58c)
+
+# Alert Setup:
 Create an alert that triggers when the count reaches the red range (e.g., 1200+ POST requests/hour).
+
+![6](https://github.com/user-attachments/assets/88d443ac-fe41-4171-b44f-f96f13492424)
+
 
 
 
