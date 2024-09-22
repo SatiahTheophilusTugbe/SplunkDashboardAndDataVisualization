@@ -1,19 +1,19 @@
 # <h1> SPLUNK DASHBOARD AND DATA VISUALIZATION </h1>
 # Project Overview
-This project provides a step-by-step guide for visualizing and monitoring web traffic data using Splunk. The data in question is focused on `POST` events, and through various visualization tools like **radial gauges**, **pie charts**, and **geographic maps**, you’ll gain insights into server request patterns and create dashboards to consolidate and monitor these metrics. Each visualization is saved as a report, which is then assembled into a Splunk dashboard for monitoring and alerting.
+In this project, I provideed a step-by-step guide for visualizing and monitoring web traffic data using Splunk. The data in question is focused on `POST` events, and through various visualization tools like **radial gauges**, **pie charts**, and **geographic maps**, you’ll gain insights into server request patterns and create dashboards to consolidate and monitor these metrics. Each visualization is saved as a report, which is then assembled into a Splunk dashboard for monitoring and alerting.
 
 # Detail Steps
-# Upload the radialgauge.csv file to your Splunk environment:
+# Upload the radialgauge.csv file to your Splunk environment:(File was provided)
 Navigate to splunk/logs/Week-2-Day-1-Logs and upload the radialgauge.csv file.
 
 ![2](https://github.com/user-attachments/assets/07170b15-afcc-46a9-83ae-a9bb154d5c4a)
 
-Select all default options during the upload.
+Select all default options during the upload:
 
 ![3](https://github.com/user-attachments/assets/854f0e92-669a-4596-b703-c3f1302f6abc)
 
 ## Single-Value Visualization (Radial Gauge)
-In this exercise, I created a radial gauge to monitor the number of "POST" requests per hour.
+In this exercise, I created a radial gauge to monitor the number of "POST" requests per hour:
 - Search: Use the following SPL query to count the number of POST events:
 - Query: source="radialgauge.csv" http_method=POST | stats count as total
 
@@ -35,7 +35,7 @@ Create an alert that triggers when the count reaches the red range (e.g., 1200+ 
 ![6](https://github.com/user-attachments/assets/88d443ac-fe41-4171-b44f-f96f13492424)
 
 # Quering Successful Account Logged on Events
-Uploading the Source document:
+Uploading the Source document: (File Provided)
 - Locate Source File:Source="demo_winlogs.csv" host="WinsLogs" sourcetype="csv" and injest into Splunk
 
 ![7a](https://github.com/user-attachments/assets/7eb73834-c556-4ad8-9855-75ddddfac25e)
@@ -43,7 +43,7 @@ Uploading the Source document:
 Open your Splunk search interface:
 - From the left hand menu
 - Drill down to subject
-- From the pop-up to the left
+- From the pop-up to the right
 - Select "An account was successfully logged on"
 
 ![8a](https://github.com/user-attachments/assets/600e3f93-f5bc-4fcf-a4b8-a3a2d7cf8bc4)
@@ -89,8 +89,7 @@ Next, we’ll design a pie chart to display the top 10 URI paths with the most P
 - Go to Visualization > Bar Chart:
 
 ![13a](https://github.com/user-attachments/assets/085bdc82-496d-4888-8eec-e9fb176b4951)
-
-  
+ 
 - Save the visualization as "Pie Chart – Top 10 URI_PATH".
 
 ![15a](https://github.com/user-attachments/assets/9292f761-2e97-425d-955f-ab64d684514c)
@@ -159,7 +158,7 @@ Time Range Input:
 
 - 1 Minute Window:
 
-![32c](https://github.com/user-attachments/assets/a0346314-808e-4e52-b361-f012e0fca584)
+![33c](https://github.com/user-attachments/assets/defa40ff-6a97-4cd7-8caa-bdf45a84796c)
 
 - Year to Date:
 
@@ -175,7 +174,7 @@ Time Range Input:
 
 ![36d](https://github.com/user-attachments/assets/e3407fc9-6a30-4028-9b42-8cbaca34e121)
 
-- Adding a click Function to the Dashboard
+- Adding a click Function to the Dashboard:
 
 ![37d](https://github.com/user-attachments/assets/9a97b022-7d7d-4583-8c16-c9cb1ec5f187)
 
